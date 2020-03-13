@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "883201474511",
+    "firebase_url": "https://pearl-hatcher.firebaseio.com",
+    "project_id": "pearl-hatcher",
+    "storage_bucket": "pearl-hatcher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883201474511:android:08394c501dd12e53fa5cba",
+        "android_client_info": {
+          "package_name": "com.pearladmin.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883201474511-knjrpt949va4mvraq18cd01gpsjit22m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pearladmin.android",
+            "certificate_hash": "e2248f89b9e459d686469fb5b82c86ae75dc6344"
+          }
+        },
+        {
+          "client_id": "883201474511-082m6bkmp4nbk6gvkbh2k2qk8ti4fg26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKcyvIKS3HlMhb6IAdYmxnF0Anjy3NKV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883201474511-082m6bkmp4nbk6gvkbh2k2qk8ti4fg26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883201474511:android:9d7d2232f8e661c7fa5cba",
+        "android_client_info": {
+          "package_name": "com.pearlhatcher.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883201474511-pb4buo5hemuf2suml5igs2ovir6e97bb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pearlhatcher.android",
+            "certificate_hash": "b7941911416e80c597c2a1e44a2cac98235aae16"
+          }
+        },
+        {
+          "client_id": "883201474511-0c0b1mdtoims23ala1q8ijlf4mdgokpl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pearlhatcher.android",
+            "certificate_hash": "e2248f89b9e459d686469fb5b82c86ae75dc6344"
+          }
+        },
+        {
+          "client_id": "883201474511-082m6bkmp4nbk6gvkbh2k2qk8ti4fg26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKcyvIKS3HlMhb6IAdYmxnF0Anjy3NKV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883201474511-082m6bkmp4nbk6gvkbh2k2qk8ti4fg26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
