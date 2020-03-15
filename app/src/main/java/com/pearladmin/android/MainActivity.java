@@ -33,27 +33,15 @@ public class MainActivity extends AppCompatActivity {
         }
 
         findViewById(R.id.investment_box).setOnClickListener(view -> {
-            addBox();
+//            addBox();
             startActivity(new Intent(this, InvestmentBoxesActivity.class));
 
         });
 
-        FirebaseFirestore.getInstance().collection("boxes")
-                .document("62UQydd8EQtHzP4IcBoV")
-                .get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                if (task.isSuccessful()){
-
-                    InvestmentBox investmentBox = task.getResult().toObject(InvestmentBox.class);
-                    Log.d(TAG, "onComplete: "+investmentBox.getName());
-
-                }
-            }
-        });
     }
 
     private static final String TAG = "eslamfaisal";
+
     private void addBox(){
         InvestmentBox investmentBox = new InvestmentBox();
         investmentBox.setId(FirebaseFirestore.getInstance().collection("boxes").getId());
